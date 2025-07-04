@@ -38,10 +38,6 @@ The dataset is **categorized** into 5 guava leaf conditions. Each category conta
         └── [same structure as train]
 ```
 
-Each folder contains **~100–150 images per class** for balanced learning and validation.
-
----
-
 ## 🧠 Model Workflow
 
 This project follows an end-to-end pipeline from preprocessing to prediction:
@@ -150,25 +146,27 @@ matplotlib
 
 ---
 
-## 🔍 Output Sample
+## 📥🖼️ Interactive Prediction Interface
+At the end of the project, a simple and intuitive user interface has been created that allows you to:
 
-```python
-Predicted class: Rust
-```
+1. Upload a guava leaf image
+   
+![Screenshot 2025-07-04 180102](https://github.com/user-attachments/assets/f02bd389-159d-4b4c-9a79-043b90f8c586)
+![Screenshot 2025-07-03 123032](https://github.com/user-attachments/assets/c06730b9-a482-4c53-b160-a345baef3c8c)
 
----
 
-## 📸 Demo Screenshots
+3. Automatically classify the disease using the trained CNN model and get an instant prediction output on screen
+   
+![Screenshot 2025-07-03 123047](https://github.com/user-attachments/assets/4c9edbf4-bbbf-485e-a247-f25f30c02b89)
+![Screenshot 2025-07-03 123110](https://github.com/user-attachments/assets/28599604-3b69-4208-93b8-7c48d214cd7d)
 
-| Training Pipeline | Model Accuracy |
-|-------------------|----------------|
-| ![Training](screenshots/training_sample.png) | ![Accuracy](screenshots/accuracy_plot.png) |
+📌 This is especially useful for testing the model on custom or unseen data without needing to run any code manually.
 
 ---
 
 ## 🙋‍♀️ Author
 
 **Shria Bhardwaj**  
-👩‍💻 Developed under expert mentorship during AI/ML training at SkillCircle™.
+🔗 [LinkedIn Profile](www.linkedin.com/in/shria-bhardwaj)
 
 ---
